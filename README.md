@@ -12,6 +12,10 @@ Items are priced as follows:
 
 Given a list of shopping, calculate the total cost of those items
 
+##Test senarios
+
+ Please see all three test cases in file shopping_basket.feature
+
 ## Prerequisites
 - Java 8
 - maven 3
