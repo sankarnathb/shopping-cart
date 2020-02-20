@@ -32,9 +32,6 @@ public class StepDefinitions {
         p.setFreeQuantity(1);
         list.add(p);
         
-      	List list4=new ArrayList<>();
-        list.add(p);
-        
         
         Promotions p2= new Promotions();
         List list2=new ArrayList<>();
@@ -98,13 +95,23 @@ public class StepDefinitions {
         cart.calculateFinalPrice();
     }
 
-    @Then("^The price should show (\\d+.\\d+)$")
-    public void the_price_should_show(double arg1) throws Throwable {
-        assertEquals(cart.calculateFinalPrice(), arg1, 0.01);
+    @Then("^Total bill payable show (\\d+)\\.(\\d+)$")
+    public void total_bill_payable_show(int arg1, int arg2) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        assertEquals(cart.calculateMarkerPrice(), arg1, 0.01);
     }
 
+    @Then("^Total Promos Applied show (\\d+)\\.(\\d+)$")
+    public void total_Promos_Applied_show(int arg1, int arg2) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        assertEquals(cart.calculateMarkerPrice()-cart.calculateFinalPrice(), arg1, 0.01);
+    }
 
-
+    @Then("^Total Payable Amount show (\\d+)\\.(\\d+)$")
+    public void total_Payable_Amount_show(int arg1, int arg2) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        assertEquals(cart.calculateFinalPrice(), arg1, 0.01);
+    }
  
     
 }
