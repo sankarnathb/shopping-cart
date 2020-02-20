@@ -1,4 +1,4 @@
-# Pre-Interview Exercise
+# Post-Interview Exercise
 
 ## Overview
 Implementation of a shopping cart in Java.
