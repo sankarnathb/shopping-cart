@@ -1,0 +1,10 @@
+com\domain\filter\PriceDiscountFilterTest.class
+com\domain\filter\AbstractFilterTest.class
+com\domain\model\InventoryTest.class
+com\domain\filter\BuyOneGetOneFilterTest.class
+com\domain\filter\FlatDiscountFilterTest.class
+com\domain\filter\MarkedPriceFilterTest.class
+com\domain\service\ICartRunner.class
+com\domain\model\ItemTest.class
+com\domain\service\StepDefinitions.class
+com\domain\service\CartTest.class
