@@ -12,9 +12,9 @@ Items are priced as follows:
 
 Given a list of shopping, calculate the total cost of those items
 
-##Test senarios
+## Test senarios
 
- Please see all three test cases in file shopping_basket.feature
+ Please see all three test cases in file shopping_basket.feature file
 
 ## Prerequisites
 - Java 8
